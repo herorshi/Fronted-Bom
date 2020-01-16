@@ -1,0 +1,5 @@
+export  {default as Nav_head } from './nav_head'
+export  {default as Aside } from './aside'
+export  {default as Content } from './content'
+export  {default as Footer } from './footer'
+export  {default as FooterSide } from './aside_footer'

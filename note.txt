@@ -1,0 +1,48 @@
+=================== yarn ===========================
+yarn init 
+add --dev  webpack webpack-dev-server
+package.json => 
+  "scripts": {
+    "dev": "webpack-dev-server --hot"
+  },
+yarn add react-hot-loader
+
+webpack_config.js
+
+const path = require('path')
+
+
+module.exports = {
+    context:path.resolve(__dirname,'src'),
+    entry:{
+        app:[
+         './index'   
+        ]
+    }
+}
+
+index.js
+
+import React from 'react'
+import ReactDOM from 'react-dom';
+
+ReactDom.render(
+    <h1>Hello World</h1>,
+    document.getElementById('root')
+)
+
+
+yarn add --dev babel-core babel-preset-env babel-preset-react
+yarn add --dev babel-loader
+
+=====================css===================
+
+import file scss,less,cssตามปกติ แล้วสั่ง
+yarn add --dev sass-loader node-sass css-loader style-loader
+
+
+
+=====================css====================
+react-infinite-scroller
+
+=================== yarn =========================== 
